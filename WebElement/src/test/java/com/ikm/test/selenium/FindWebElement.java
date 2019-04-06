@@ -20,7 +20,6 @@ public class FindWebElement {
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-	    //Implicit wait implementation..one time for entire program
 		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
